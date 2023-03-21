@@ -9,4 +9,5 @@ document.getElementById('btn').addEventListener('click', () => {
     Number(pali.value) * 0.27 +
     Number(ui.value) * 0.2 + Number(tdd.value) * 0.2 + Number(p.value) * 0.18;
     document.getElementById('result').innerText += " " + result;
+    result = null;
 });
