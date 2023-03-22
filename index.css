@@ -7,12 +7,13 @@ body{
 }
 #passingScore{
     color: #000;
+    width:19rem;
 }
-#ladf{
+#result{
+    width: 19rem;
+}
+.lbl{
     background-color:darkgoldenrod;
-}
-#lpali{
-    background-color: darkgoldenrod;
 }
 .error{
     color:red;

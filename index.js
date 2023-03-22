@@ -37,4 +37,10 @@ function validation(f1, f2, f3, f4, f5){
         document.getElementById('ep').innerText = 'Mark value can\'t be greater than 100';
         return true;
     }
+    document.getElementById('eadf').innerText = '';
+    document.getElementById('epali').innerText = '';
+    document.getElementById('eui').innerText = '';
+    document.getElementById('etdd').innerText = '';
+    document.getElementById('ep').innerText = '';
+    return false;
 }
