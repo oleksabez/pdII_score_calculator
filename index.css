@@ -2,9 +2,19 @@ body{
     background-image: url('./salesforce-debug-and-deployment-tools-wallapaper.jpeg');
     background-position: center;
     opacity: 1;
-    color: #f00;
+    color: #1bf51b;
     font-size: x-large;
 }
 #passingScore{
     color: #000;
+}
+#ladf{
+    background-color:darkgoldenrod;
+}
+#lpali{
+    background-color: darkgoldenrod;
+}
+.error{
+    color:red;
+    font-weight: bold;
 }

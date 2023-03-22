@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Platform Developer II calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Platform Developer II score result calculator" >
     <meta property="og:type" content="website" >
     <meta property="og:url" content="#top" >
@@ -11,16 +12,21 @@
     <link rel="stylesheet" href="./index.css">
   </head>
   <body>
-    <label for="Advanced_Developer_Fundamentals">Advanced Developer Fundamentals:</label><br>
+    <label for="Advanced_Developer_Fundamentals" id="ladf">Advanced Developer Fundamentals:</label><br>
     <input type="number" name="Advanced_Developer_Fundamentals" id="adf" placeholder="score"><br>
-    <label for="Process_Automation_Logic_and_Integration">Process Automation, Logic, and Integration:</label><br>
+    <p class="error" id="eadf"></p>
+    <label for="Process_Automation_Logic_and_Integration" id="lpali">Process Automation, Logic, and Integration:</label><br>
     <input type="number" name="Process_Automation_Logic_and_Integration" id="pali" placeholder="score"><br>
+    <p class="error" id="epali"></p>
     <label for="User_Interface">User Interface:</label><br>
     <input type="number" name="User_Interface" id="ui" placeholder="score"><br>
+    <p class="error" id="eui"></p>
     <label for="Testing_Debugging_and_Deployment">Testing, Debugging, and Deployment:</label><br>
     <input type="number" name="Testing_Debugging_and_Deployment" id="tdd" placeholder="score"><br>
+    <p class="error" id="etdd"></p>
     <label for="Performance">Performance:</label><br>
     <input type="number" name="Performance" id="p" placeholder="score"><br>
+    <p class="error" id="ep"></p>
     <button id="btn">Submit</button>
     <p id="result">Your score is: </p>
     <h2 id="passingScore">Passing score: 70%</h2>
